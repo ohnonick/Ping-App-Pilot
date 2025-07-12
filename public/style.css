@@ -1,0 +1,25 @@
+body{
+    align-items: center; 
+    justify-content: center;
+    background-color: white;
+}
+
+button {
+    cursor: pointer;
+    background-color: olivedrab;
+    color: white;
+    border-radius: 8px;
+}
+
+button:disabled {
+    color: slategrey;
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+#debugInfo {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: lightslategrey;
+    text-align: center; 
+}
